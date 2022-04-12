@@ -27,22 +27,12 @@ public class Main {
         mainQuantity = scanner.nextInt();
         // consume the new line so we can continue
         scanner.nextLine();
-        // Customer name's their price
-        System.out.println("Price of " + mainItem + "?");
-        mainPrice = scanner.nextDouble();
-        // consume the new line
-        scanner.nextLine();
         // ask user for side item selection
         System.out.println("Please enter your side item selection: ");
         sideItem = scanner.nextLine();
         // ask user for quantity of side item
         System.out.println("How many " + sideItem + "'s would you like?");
         sideQuantity = scanner.nextInt();
-        // consume the new line so we can continue
-        scanner.nextLine();
-        // Customer names their price for side item
-        System.out.println("Price of " + sideItem + "?");
-        sidePrice = scanner.nextDouble();
 
         /*****
          * Calculating the customer's total order price
